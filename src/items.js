@@ -5,6 +5,8 @@ import image4 from './media/images/4.gif';
 import audio1 from './media/audio/1.mp3';
 import audio2 from './media/audio/1.mp3';
 import audio3 from './media/audio/1.mp3';
+import video1 from './media/video/1.mp4';
+import video2 from './media/video/2.mp4';
 
 export default [{
         resource: image1,
@@ -40,5 +42,15 @@ export default [{
         resource: audio3,
         type: 'audio',
         title: 'Закат в лесу'
+    },
+    {
+        resource: video1,
+        type: 'video',
+        title: 'Never Gonna Give You Up'
+    },
+    {
+        resource: video2,
+        type: 'video',
+        title: 'Морской прибой'
     }
 ];

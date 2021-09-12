@@ -33,7 +33,7 @@ module.exports = {
                 }
             }]
         }, {
-            test: /\.(mp3)$/,
+            test: /\.mp(3|4)$/,
             use: 'file-loader'
         }]
     },

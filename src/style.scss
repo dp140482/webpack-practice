@@ -37,4 +37,8 @@ body {
         padding: calc(25% - 15px) 0;
         background-color: whitesmoke;
     }
+    &__video {
+        width: 100%;
+        height: calc(100% - 30px);
+    }
 }
