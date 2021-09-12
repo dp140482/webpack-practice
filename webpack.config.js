@@ -19,6 +19,22 @@ module.exports = {
         rules: [{
             test: /\.(sa|sc|c)ss$/,
             use: ['style-loader', 'css-loader', 'sass-loader']
+        }, {
+            test: /\.(png|jpe?g|gif)$/i,
+            use: [{
+                loader: 'img-optimize-loader',
+                options: {
+                    compress: {
+                        mode: 'high',
+                        webp: true,
+                        gifscale: true,
+                        disableOnDevelopment: false
+                    }
+                }
+            }]
+        }, {
+            test: /\.mp(3|4)$/,
+            use: 'file-loader'
         }]
     },
     plugins: [
