@@ -1,24 +1,32 @@
 {
-  "name": "webpack-practice",
-  "version": "1.0.0",
-  "description": "webpack-practice",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dp140482/webpack-practice.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dp140482/webpack-practice/issues"
-  },
-  "homepage": "https://github.com/dp140482/webpack-practice#readme",
-  "devDependencies": {
-    "webpack": "^5.52.1",
-    "webpack-cli": "^4.8.0"
-  }
+    "name": "webpack-practice",
+    "version": "1.0.0",
+    "description": "webpack-practice",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "serve": "webpack serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dp140482/webpack-practice.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dp140482/webpack-practice/issues"
+    },
+    "homepage": "https://github.com/dp140482/webpack-practice#readme",
+    "devDependencies": {
+        "css-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.2",
+        "sass": "^1.39.2",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.2.1",
+        "webpack": "^5.52.1",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.2.0"
+    }
 }
