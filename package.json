@@ -22,6 +22,7 @@
     "devDependencies": {
         "css-loader": "^6.2.0",
         "html-webpack-plugin": "^5.3.2",
+        "img-optimize-loader": "^1.0.7",
         "sass": "^1.39.2",
         "sass-loader": "^12.1.0",
         "style-loader": "^3.2.1",
