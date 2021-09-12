@@ -30,6 +30,46 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
+/***/ "./src/media/images/1.jpg":
+/*!********************************!*\
+  !*** ./src/media/images/1.jpg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"29f7cfef27abba0e723ddd4d8f1d8f84.jpg\");\n\n//# sourceURL=webpack://webpack-practice/./src/media/images/1.jpg?");
+
+/***/ }),
+
+/***/ "./src/media/images/2.jpg":
+/*!********************************!*\
+  !*** ./src/media/images/2.jpg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6b154291e565321a8d8f5aa7626f115f.jpg\");\n\n//# sourceURL=webpack://webpack-practice/./src/media/images/2.jpg?");
+
+/***/ }),
+
+/***/ "./src/media/images/3.jpg":
+/*!********************************!*\
+  !*** ./src/media/images/3.jpg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"d2e08f326079af6cd0ea0eaf2af76a58.jpg\");\n\n//# sourceURL=webpack://webpack-practice/./src/media/images/3.jpg?");
+
+/***/ }),
+
+/***/ "./src/media/images/4.gif":
+/*!********************************!*\
+  !*** ./src/media/images/4.gif ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6cfd38545df0a6b826795a261bab82ab.gif\");\n\n//# sourceURL=webpack://webpack-practice/./src/media/images/4.gif?");
+
+/***/ }),
+
 /***/ "./src/style.scss":
 /*!************************!*\
   !*** ./src/style.scss ***!
@@ -100,13 +140,33 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 
 /***/ }),
 
+/***/ "./src/item.js":
+/*!*********************!*\
+  !*** ./src/item.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"drawItem\": () => (/* binding */ drawItem)\n/* harmony export */ });\nfunction drawItem(item) {\n    let itemElement = document.createElement('div');\n    itemElement.className = 'gallery-item';\n\n    const imgElement = document.createElement('img');\n    imgElement.className = 'gallery-item__image';\n    imgElement.src = item.resource;\n\n    const titleElement = document.createElement('p');\n    titleElement.className = 'gallery-item__title';\n    titleElement.textContent = item.title;\n\n    itemElement.appendChild(imgElement);\n    itemElement.appendChild(titleElement);\n\n    return itemElement;\n}\n\n//# sourceURL=webpack://webpack-practice/./src/item.js?");
+
+/***/ }),
+
+/***/ "./src/items.js":
+/*!**********************!*\
+  !*** ./src/items.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _media_images_1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./media/images/1.jpg */ \"./src/media/images/1.jpg\");\n/* harmony import */ var _media_images_2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./media/images/2.jpg */ \"./src/media/images/2.jpg\");\n/* harmony import */ var _media_images_3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./media/images/3.jpg */ \"./src/media/images/3.jpg\");\n/* harmony import */ var _media_images_4_gif__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./media/images/4.gif */ \"./src/media/images/4.gif\");\n\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{\n        resource: _media_images_1_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"],\n        title: 'Мельница у реки'\n    },\n    {\n        resource: _media_images_2_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n        title: 'Горы осенью'\n    },\n    {\n        resource: _media_images_3_jpg__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n        title: 'Деревня летом'\n    },\n    {\n        resource: _media_images_4_gif__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n        title: 'Анимированный котик'\n    }\n]);\n\n//# sourceURL=webpack://webpack-practice/./src/items.js?");
+
+/***/ }),
+
 /***/ "./src/main.js":
 /*!*********************!*\
   !*** ./src/main.js ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/style.scss */ \"./src/style.scss\");\n\n\n//# sourceURL=webpack://webpack-practice/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _items_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./items.js */ \"./src/items.js\");\n/* harmony import */ var _item_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./item.js */ \"./src/item.js\");\n\n\n\n\nlet galleryRoot = document.getElementById('galleryRoot');\n_items_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].map(item => galleryRoot.appendChild((0,_item_js__WEBPACK_IMPORTED_MODULE_2__.drawItem)(item)));\n\n//# sourceURL=webpack://webpack-practice/./src/main.js?");
 
 /***/ })
 
@@ -161,6 +221,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -175,6 +247,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
