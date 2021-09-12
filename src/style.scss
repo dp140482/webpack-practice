@@ -33,4 +33,8 @@ body {
         text-align: center;
         margin-top: 4px;
     }
+    &__audio {
+        padding: calc(25% - 15px) 0;
+        background-color: whitesmoke;
+    }
 }
